@@ -21,9 +21,8 @@ class TreasureMap:
 
 
 if __name__ == '__main__':
-    x_keys = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-    y_keys = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'K', 'J']
-    x_key: int = random.choice(x_keys)
-    y_key: str = random.choice(y_keys)
+    x_key = random.randint(1, 10)
+    y_key = random.choice(string.ascii_letters[0: 9])
+    treasure_game = TreasureMap()
 
 
