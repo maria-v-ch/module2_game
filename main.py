@@ -6,8 +6,7 @@ class TreasureMap:
         pass
 
     def set_treasure(self, x_key: int, y_key: str):
-        treasure = (x_key, y_key)
-        return treasure
+        return (x_key, y_key)
 
     def check_guess(self, guess: (int, str), treasure: (int, str), attempts: int):
         while guess != treasure:
